@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+*{font-family: 'Dosis', sans-serif;}
+*{margin:0; padding:0;}
+a{text-decoration:none;color:#fff; }
+a:hover{text-decoration:underline;color:#e38835; }
+li{text-decoration:none; list-style:none;}
+
+.wrapper{background:#333232;}
+
+.container{
+	padding: 10px 0;
+	margin:0 auto;
+	max-width: 100%;
+	width: 900px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logo img{max-width: 100%;}
+.slogan{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font:22px arial sans-serf;
+	text-transform: uppercase;
+}
+
+
+.slogan-itm { margin:7px 15px; }
+.slogan-itm:nth-child(2){ 
+	margin:7px 0;
+	border-left: 2px solid #999;
+	border-right: 2px solid #999;
+	padding: 0 15px; 
+ }
+
+.contact{font:24px arial sans-serf;}
+
+
+.navig{ justify-content:space-around; }
+.navig a{color:#000; text-transform:uppercase;}
+.navig a:hover{color:#e38835;}
+
+
+.fotowrep{background:#D7D9D8;padding:10px 0;}
+.foto{
+	max-width:100%;
+	width: calc(25% - 10px);
+	height: 122px;
+	padding:5px 0;
+}
+
+footer{margin-top:30px;}
+.botcont{font:22px arial sans-serf; margin:30px 0 ;}
+.botoLog{
+	width:180px;
+	align-self:flex-start;
+}
+
+
+.social{margin:30px 0 ;}
+.social a{
+	display:inline-block;
+	width: 35px;
+	height: 35px;
+	background: url(img/social.png);
+	border-radius: 50%;
+	border:1px solid #fff;
+
+}
+
+.social a.ic-tw{background-position: 0 0;}
+.social a.ic-tw:hover{
+	background:#0698cf url(img/social.png) no-repeat;
+	background-position:0 0;
+	border:1px solid #0698cf;
+ }
+
+.social a.ic-tb{background-position: -38px -1px;}
+.social a.ic-tb:hover{
+	background:#3b5998 url(img/social.png) no-repeat;
+	background-position: -38px -1px;
+	border:1px solid #3b5998;
+ }
+
+
+.social a.ic-pn{background-position: -80px -1px;}
+.social a.ic-pn:hover{
+	background:#cb2028 url(img/social.png) no-repeat;
+	background-position: -80px -1px;
+	border:1px solid #cb2028;
+ }
+
